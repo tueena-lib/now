@@ -4,7 +4,7 @@ A php 7 class that returns the current time as well as an interface, that can be
 
 Features
 --------
-* Invoking an instance of the class returns an `\DateTieImmutable`.
+* Invoking an instance of the class returns an instance of `\DateTimeImmutable`.
 
 Usage
 -----
