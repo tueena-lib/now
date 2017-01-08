@@ -1,0 +1,21 @@
+{
+	"name": "tueena-lib/now",
+	"description": "A php 7 class that can return the current time as well as an interface, that can be mocked for unit tests.",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": ">=7.0.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.7"
+	},
+	"authors": [
+		{
+			"name": "Bastian Fenske",
+			"email": "bastian.fenske@tueena.org"
+		}
+	],
+	"autoload": {
+		"psr-4": {"tueenaLib\\now\\": "source/"}
+	}
+}
